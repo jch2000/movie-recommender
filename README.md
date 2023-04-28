@@ -5,4 +5,4 @@
 * Run 'spark_movie_recommendation.ipynb' file (add '.limit(numrows)' to the end of the 'spark.read.csv' lines to run with less data)
 
 ### To run using PySpark on the cloud:
-* There are many different options; See paper to see how we used Dataproc in GCP
+* There are many different options; See paper to see how we used Google Cloud Dataproc
