@@ -13,9 +13,9 @@ print('Zip Downloaded')
 with open(zip_fname, 'wb') as output_file:
     output_file.write(req.content)
 
-# Writing file to local file system in folder
+# Writing file to local file system to folder
 with zipfile.ZipFile(zip_fname, 'r') as zipped:
-    zipped.extractall('./ml-25m/')
+    zipped.extractall('./')
 print('Data Unzipped')
 
 # Removing zip file
